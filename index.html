@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Accessibility Testing</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body class="p-5">
+    
+      <style>
+          .screen-reader-only {
+              position: absolute;
+              display: block;
+              cursor: text;
+              margin: -1px 0 0 -1px;
+              padding: 0;
+              width: 1px;
+              height: 1px;
+              font-weight: normal;
+              font-size: 15px;
+              line-height: 1px;
+              overflow: hidden;
+              clip: rect(0, 0, 0, 0);
+              border: 0;
+              outline: 0;
+          }
+          </style>
+    
+    <div class="container">
+      <div class="w-75 m-auto">
+        <div class="d-flex flex-column">
+          <h1 class="text-center fs-1 fw-bold">Link Context</h1>
+
+          <h2 class="mt-4 text-center lead text fw-bold">Successful Elements</h2>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <!-- Login Links -->
+
+    <div class="container">
+      <div class="w-75 m-auto">
+        <div class="d-flex flex-column">
+          <h3 class="text-center lead ">Login Links</h3>
+          <a
+            href="login-en.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="English login page"
+            >Login (English)</a
+          >
+          <a
+            href="login-es.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Spanish login page"
+            >Iniciar sesión (Español)</a
+          >
+          <a
+            href="login-ge.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="German login page"
+          >
+            Anmelden(German)</a
+          >
+          <a
+            href="login-po.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label=" Portuguese login page"
+          >
+            Entrar (Portuguese)</a
+          >
+          <a
+            href="login-French.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="French login page"
+            >Connexion (French)</a
+          >
+          <a
+            href="login-Italian.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Italian login page"
+            >Accesso (Italian)</a
+          >
+          <a
+            href="login-Hebrew.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Hebrew login page"
+            >כניסה (Hebrew)</a
+          >
+          <a
+            href="login-Russian.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Russian login page"
+            >Вход (Russian)</a
+          >
+          <a
+            href="login-Arabic.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Arabic login page"
+            >تسجيل الدخول (Arabic)</a
+          >
+          <a
+            href="login-Chinese1.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Chinese Simplified login page"
+            >登录 (Chinese Simplified)</a
+          >
+          <a
+            href="login-Chinese2.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Chinese Traditionallogin page"
+            >登入 (Chinese Traditional)</a
+          >
+          <a
+            href="login-Dutch.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Dutch login page"
+            >Inloggen (Dutch)</a
+          >
+          <a
+            href="login-Japanese.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Japanese login page"
+            >ログイン (Japanese)</a
+          >
+          <a
+            href="login-Turkish.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Turkish login page"
+            >Giriş yap (Turkish)</a
+          >
+          <a
+            href="login-Polish.html"
+            class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-login-link"
+            role="link"
+            aria-label="Polish login page"
+            >Zaloguj się (Polish)</a
+          >
+        </div>
+      </div>
+    </div>
+    <hr />
+  </br>
+
+    <!-- Social Links -->
+    <div class="container ">
+      <div class="w-75 m-auto text-center lead">
+        <div class="d-flex flex-column">
+          <h3 class="mt-4 text-center lead">Social Links</h3>
+          <div class="d-flex flex-column">
+            
+              <h3 class="mt-4 text-center lead small">Instagram</h3>
+
+              <a class="instagram-png" href="https://www.instagram.com/unisalute.it/" target="_blank"> 
+								 
+                <img src="https://www.unisalute.it/wcm/connect/04d66844-3ffe-4195-9c95-96b9da5e4f43/ICONA+IG.png?MOD=AJPERES" alt="Icona Instagram UniSalute">
+               </a>
+              <a
+              href="https://instagram.com/yourusername"
+              class="btn btn-outline-primary mt-3 w-25 m-auto btn-btn-sm my-1  w-25 m-auto successful-instagram-link-button"
+              role="link"
+              aria-label="Our Instagram profile"
+              >Instagram</a
+            >
+          </div>
+          <!--Facebook-->
+          <h3 class="mt-4 text-center lead small">Facebook</h3>
+          <a href="https://it-it.facebook.com/UniSalute/" target="_blank">
+            <img src="https://www.unisalute.it/wcm/connect/7c50274b-3c86-4332-88b8-717d87501183/ICONE26.png?MOD=AJPERES" alt="Icona Facebook UniSalute">
+          </a>
+          <a
+              href="https://facebook.com/yourusername"
+              class="btn btn-outline-primary mt-3 w-25 m-auto btn-btn-sm my-1 w-25 m-auto successful-instagram-link-button"
+              role="link"
+              aria-label="Our Facebook profile"
+              >Facebook</a
+            >
+            <a rel=" noopener nofollow" target="_blank" href="https://www.facebook.com/FRIDArestaurantAmericana" class="wp-block-social-link-anchor" tabindex="-1"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg><span class="wp-block-social-link-label nested-svg-facebook screen-reader-only" aria-hidden="true">Facebook</span><span class="sr-only">new window</span></a>
+            <!--Linked In-->
+          <h3 class="mt-4 text-center lead small">Linked In</h3>
+          <a href="https://it-it.facebook.com/UniSalute/" target="_blank">
+            <img width="" height="" src="https://www.unisalute.it/wcm/connect/0673aacd-7367-4489-bed8-56045ed365ab/ICONE28.png?MOD=AJPERES" alt="Icona LinkedIn UniSalute">          </a>
+          <a
+              href="https://facebook.com/yourusername"
+              class="btn btn-outline-primary mt-3 w-25 m-auto btn-btn-sm my-1 w-25 m-auto successful-instagram-link-button"
+              role="link"
+              aria-label="Our Facebook profile"
+              >Facebook</a
+            >
+          <!-- Email Links -->
+          <h3 class="mt-4 text-center lead">Email Links</h3>
+          <div class="d-flex flex-column">
+            <a
+              href="mailto:your-email@example.com"
+              class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-email-link"
+              role="link"
+              aria-label="Send us an email"
+              >Email us</a
+            >
+          </div>
+
+          <!-- Phone Links -->
+          <h3 class="mt-4 text-center lead">Phone Links</h3>
+          <div class="d-flex flex-column">
+            <a
+              href="tel:+11234567890"
+              class="btn btn-outline-primary mt-3 w-25 m-auto my-1 successful-phone-link"
+              role="link"
+              aria-label="Call us at +1 123 456 7890"
+              >Call us</a
+            >
+          </div>
+
+          <!-- Image with Alt Text as Links -->
+          <h3 class="text-center lead">Image with Alt Text as Links</h3>
+          <a href="login.html" class="successful-image-link"
+            ><img src="login-icon.png" alt="Login Page"
+          /></a>
+
+          <!-- Contextual Text for Link -->
+          <h3  class="text-center lead">Contextual Text for Link</h3>
+          <p>
+            For more details,
+            <a href="info.html" class="successful-context-link"
+              >see our information page</a
+            >.
+          </p>
+
+          <!-- Screen Reader Context -->
+          <h3 class="text-center lead">Screen Reader Context</h3>
+          <a
+            href="login.html"
+            class="successful-screen-reader-link"
+            aria-label="Login Page"
+            >Login</a
+          >
+
+          <!-- Standard Interactive Elements -->
+          <h3 class="text-center lead">Standard Interactive Elements</h3>
+          <a
+            href="https://instagram.com"
+            class="successful-standard-interactive-link"
+            role="link"
+            aria-label="Instagram"
+            >Instagram</a
+          >
+
+          <!-- Actionable Links -->
+          <h3 class="text-center lead">Actionable Links</h3>
+          <button onclick="myFunction()" class="successful-actionable-link">
+            Do Something
+          </button>
+
+          <!-- Link Text Matches the Destination -->
+          <h3 class="text-center lead">Link Text Matches the Destination</h3>
+          <a href="https://google.com" class="successful-match-link">Google</a>
+
+          <h2 class="mt-4">Failing Elements</h2>
+
+
+          <h3 class="lead small"> Failing Social Links</h3>
+          <h4 class="lead small">SVGs aria hidden for - descriptive span</h4>
+          <a rel=" noopener nofollow" target="_blank" href="https://www.facebook.com/FRIDArestaurantAmericana" class="wp-block-social-link-anchor" tabindex="-1"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg><span class="wp-block-social-link-label nested-svg-facebook screen-reader-only" aria-hidden="true">Facebook</span><span class="sr-only">new window</span></a>
+          <a rel=" noopener nofollow" target="_blank" href="https://www.instagram.com/fridaamericana" class="wp-block-social-link-anchor" tabindex="-1"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg><span class="wp-block-social-link-label screen-reader-only" aria-hidden="true">Instagram</span><span class="sr-only">new window</span></a>
+          <!-- Links with the same accessible name but different hrefs -->
+          <h3 class="lead small">Links with the same accessible name but different hrefs</h3>
+          <a href="page1.html" class="failing-same-name-diff-hrefs-link"
+            >Click Here</a
+          >
+          <a href="page2.html" class="failing-same-name-diff-hrefs-link"
+            >Click Here</a
+          >
+
+          <!-- SVGs as links without title or desc -->
+          <h3 class="lead small">SVGs as links without title or desc</h3>
+          <a href="login.html" class="failing-svg-link"
+            ><svg width="50" height="50">
+              <circle cx="25" cy="25" r="20" fill="blue" /></svg
+          ></a>
+
+          <!-- Link inside a sentence without context -->
+          <h3 class="lead small">Link inside a sentence without context</h3>
+          <p class="failing-context-link">
+            You can learn more <a href="info.html">here</a>.
+          </p>
+
+          <!-- Embed elements without fallback content -->
+          <h3 class="lead small">Embed elements without fallback content</h3>
+          <embed src="movie.swf" class="failing-embed" />
+
+          <!-- ... -->
+
+
+          <!-- A Link with title attribute -->
+          <h3 class="lead small">A Link with title attribute</h3>
+          <a
+            href="info.html"
+            class="conditional-title-link"
+            title="More information about our company"
+            >More Info</a
+          >
+
+          <!-- Area-link with alt attribute -->
+          <h3 class="lead small">Area-link with alt attribute</h3>
+          <map name="map">
+            <area
+              shape="rect"
+              coords="0,0,50,50"
+              href="info.html"
+              alt="More information"
+              class="conditional-alt-link"
+            />
+          </map>
+
+          <!-- Buttons with aria-label attribute -->
+          <h3 class="lead small">Buttons with aria-label attribute</h3>
+          <button
+            onclick="myFunction()"
+            aria-label="Do something"
+            class="conditional-aria-label-button"
+          >
+            Do Something
+          </button>
+
+          !-- Images as Links without Alt Text -->
+          <h3 class="lead small">Images as Links without Alt Text</h3>
+          <a href="login.html" class="failing-image-link"
+            ><img src="login-icon.png"
+          /></a>
+
+          <!-- Using Generic Text for Link -->
+          <h3 class="lead small">Using Generic Text for Link</h3>
+          <p>
+            For more details,
+            <a href="info.html" class="failing-generic-text-link">click here</a
+            >.
+          </p>
+
+          <!-- Missing Screen Reader Context -->
+          <h3 class="lead small">Missing Screen Reader Context</h3>
+          <a href="login.html" class="failing-screen-reader-context-link"
+            >Login</a
+          >
+
+          <!-- Non-Standard Interactive Elements -->
+          <h3 class="lead small">Non-Standard Interactive Elements</h3>
+          <div
+            onclick="location.href='https://instagram.com'"
+            class="failing-interactive-element"
+          >
+            Instagram
+          </div>
+
+          <!-- JavaScript `void` Links -->
+          <h3 class="lead small">JavaScript `void` Links</h3>
+          <a
+            href="javascript:void(0);"
+            onclick="myFunction()"
+            class="failing-javascript-link"
+            >Do Something</a
+          >
+
+          <!-- Link Text Doesn't Match the Destination -->
+          <h3 class="lead small">Link Text Doesn't Match the Destination</h3>
+          <a href="https://yahoo.com" class="failing-text-match-link">Google</a>
+
+
+        </div>
+      </div>
+    </div>
+    <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, disableBgProcess : false, language : 'en', position : 'right', leadColor : '#146FF8', triggerColor : '#146FF8', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'bottom', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '20' } }); }; h.appendChild(s); })(); </script>  </body>
+</html>
